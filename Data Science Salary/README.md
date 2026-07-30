@@ -1,75 +1,129 @@
-# Data Science Salary — Exploratory Data Analysis
+# 📊 Data Science Salary — Exploratory Data Analysis
 
-Exploratory data analysis of data science salaries using Python, pandas, Matplotlib, and Seaborn.
+An exploratory data analysis project that investigates salary patterns across data science roles, experience levels, employment types, locations, remote-work arrangements, and company sizes.
 
-## Project overview
+> **Project question:** What patterns can we uncover in data science salaries, job demand, and workforce characteristics across different years and experience levels?
 
-This project explores salary patterns in data-related roles and visualizes how compensation varies by:
+![Top 10 job titles by year](salary-analysis.png)
 
-- Work year
-- Experience level
-- Employment type
-- Job title
-- Salary distribution
-- Employee and company location
-- Remote-work ratio
-- Company size
+---
 
-The notebook also replaces abbreviated categorical values with more descriptive labels to make the analysis and charts easier to interpret.
+## 📌 Project overview
 
-## Repository contents
+This project uses Python-based exploratory data analysis to transform a raw salary dataset into clear, interpretable insights. The notebook combines data profiling, categorical-label cleaning, statistical summaries, and visual storytelling.
 
-| File | Description |
-| --- | --- |
-| `Data_Science_Salary-EDA.ipynb` | Main analysis notebook |
-| `ds_salaries.csv` | Salary dataset used in the analysis |
+The analysis focuses on:
 
-## Dataset fields
+- The most common data-related job titles by year
+- Job-title patterns across experience levels
+- Employment-type distribution
+- Salary distributions and compensation patterns
+- Employee residence and company location
+- Remote-work ratio and company size
 
-The dataset includes work year, experience level, employment type, job title, salary, salary currency, salary in USD, employee residence, remote ratio, company location, and company size.
+## 🗂️ Repository contents
 
-## Getting started
+~~~text
+Data Science Salary/
+├── Data_Science_Salary-EDA.ipynb   # Complete exploratory analysis
+├── ds_salaries.csv                 # Source dataset
+├── salary-analysis.png             # README visualization
+└── README.md                       # Project documentation
+~~~
 
-1. Clone this repository:
+## 🧾 Dataset
 
-   ```bash
-   git clone https://github.com/Vishal123-tech/EDA-PROJECT-.git
-   cd EDA-PROJECT-
-   ```
+The dataset contains **data science salary records** with the following fields:
 
-2. Install the required packages:
+| Field | Type | Description |
+| --- | --- | --- |
+| work_year | Numeric | Year in which the salary was reported |
+| experience_level | Categorical | Employee experience level |
+| employment_type | Categorical | Full-time, part-time, contract, or freelance |
+| job_title | Categorical | Data-related job title |
+| salary | Numeric | Salary in the original currency |
+| salary_currency | Categorical | Original salary currency |
+| salary_in_usd | Numeric | Salary normalized to US dollars |
+| employee_residence | Categorical | Employee's country of residence |
+| remote_ratio | Numeric | Percentage of remote work |
+| company_location | Categorical | Company's country |
+| company_size | Categorical | Small, medium, or large company |
 
-   ```bash
-   pip install pandas numpy matplotlib seaborn jupyter
-   ```
+## 🔍 Analysis workflow
 
-3. Open the notebook:
+1. Import Python libraries and configure the display format.
+2. Load the salary dataset into a pandas DataFrame.
+3. Inspect shape, data types, missing values, duplicates, unique values, and summary statistics.
+4. Separate categorical and numerical variables.
+5. Expand abbreviated category labels for clearer interpretation.
+6. Compare job titles by work year and experience level.
+7. Visualize employment type and salary distributions.
+8. Summarize the main patterns observed in the data.
 
-   ```bash
-   jupyter notebook Data_Science_Salary-EDA.ipynb
-   ```
+## 📈 Key visual analysis
 
-4. To run it locally, update the notebook's `pd.read_csv(...)` path to:
+### Top job titles by year
 
-   ```python
-   pd.read_csv("ds_salaries.csv")
-   ```
+The project compares the most frequent job titles across the available years. Data Engineer, Data Scientist, Data Analyst, and Machine Learning Engineer appear among the most prominent roles in the analysis.
 
-## Analysis workflow
+### Experience and employment
 
-The notebook follows this sequence:
+The notebook explores how roles are distributed across experience levels and employment types, helping identify where the dataset is concentrated.
 
-1. Import the analysis libraries.
-2. Load and inspect the dataset.
-3. Review shape, data types, missing values, duplicates, unique values, and summary statistics.
-4. Identify categorical and numerical columns.
-5. Clean and expand abbreviated category labels.
-6. Create visualizations for jobs, experience levels, employment types, and salary distributions.
+### Salary distributions
 
-## Source
+Salary values are examined using normalized US-dollar compensation to make comparisons more meaningful across the original currencies represented in the dataset.
 
-The dataset is the **Data Science Salaries 2023** dataset. Please review the original dataset license and attribution requirements before redistributing it or using it commercially.
+## 💡 Key takeaways
 
-## License
+- Data Engineer, Data Scientist, and Data Analyst are consistently prominent job titles in the dataset.
+- Senior-level roles form a major part of the available salary records.
+- Remote-work arrangements and company size provide useful context when comparing compensation.
+- Using salary_in_usd supports more consistent salary comparisons than using the original currency values.
+- Clear category labels make the visualizations easier to understand and communicate.
 
-No project-specific license has been added yet. Unless a license is provided, default copyright rules apply to the original work in this repository.
+> These observations describe patterns in this dataset and should not be interpreted as a complete representation of the entire global data-science labor market.
+
+## 🛠️ Tech stack
+
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+## 🚀 Getting started
+
+Clone the repository and open the project folder:
+
+~~~bash
+git clone https://github.com/Vishal123-tech/EDA-PROJECT-.git
+cd EDA-PROJECT-/Data\ Science\ Salary
+~~~
+
+Install the required libraries:
+
+~~~bash
+python -m pip install pandas numpy matplotlib seaborn jupyter
+~~~
+
+Launch the notebook:
+
+~~~bash
+jupyter notebook Data_Science_Salary-EDA.ipynb
+~~~
+
+When running locally, make sure the notebook loads the included CSV file:
+
+~~~python
+pd.read_csv("ds_salaries.csv")
+~~~
+
+## 📚 Data source and attribution
+
+The project uses the **Data Science Salaries 2023** dataset. Please review the original dataset's license and attribution requirements before redistributing or using it commercially.
+
+## 📄 License
+
+No project-specific license has been added. Unless a license is provided, default copyright rules apply to the original work in this repository.
