@@ -1,8 +1,8 @@
 # 📊 EDA Project Portfolio
 
-A growing collection of exploratory data analysis projects covering business, entertainment, technology, workforce, and game data.
+A growing collection of exploratory data analysis projects covering business, entertainment, technology, workforce, public-safety, and game data.
 
-Each project demonstrates a practical analytics workflow: understanding the raw data, cleaning quality issues, engineering useful features, exploring patterns, visualizing insights, and documenting conclusions.
+Each project demonstrates a practical analytics workflow: understanding raw data, cleaning quality issues, engineering useful features, exploring patterns, visualizing insights, and documenting conclusions.
 
 ## 📁 Projects
 
@@ -15,6 +15,7 @@ Each project demonstrates a practical analytics workflow: understanding the raw 
 | [MovieLens](./MovieLens/) | Movie ratings and recommendation-oriented exploration |
 | [Netflix Originals](./Netflix%20Originals/README.md) | Genres, languages, runtimes, IMDb scores, and release trends |
 | [Pokémon](./Pokemon/README.md) | Pokémon types, generations, legendary status, and battle statistics |
+| [Road Accident Analysis](./Road%20Accident%20Analysis/README.md) | Road-safety data cleaning, accident trends, exploratory analysis, and analysis notebooks |
 
 ## 🔎 Common analysis workflow
 
@@ -61,6 +62,7 @@ EDA-PROJECT-/
 ├── MovieLens/
 ├── Netflix Originals/
 ├── Pokemon/
+├── Road Accident Analysis/
 └── README.md
 ~~~
 
