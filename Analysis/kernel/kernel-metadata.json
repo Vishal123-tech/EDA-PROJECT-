@@ -1,0 +1,15 @@
+{
+  "id": "vishalinsightx/global-semiconductor-industry-eda-2010-2026",
+  "title": "Global Semiconductor Industry EDA (2010-2026)",
+  "code_file": "global-semiconductor-eda.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": [
+    "sergionefedov/global-semiconductor-industry-2010-2026"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}
