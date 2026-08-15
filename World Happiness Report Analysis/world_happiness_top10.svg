@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+  <rect width="1100" height="700" fill="#ffffff"/>
+  <text x="550" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#17324d">Top 10 Countries by Happiness Score (2019)</text>
+  <text x="550" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#607d8b">World Happiness Report exploratory analysis</text>
+  <line x1="260" y1="110" x2="260" y2="625" stroke="#9fb3c8" stroke-width="1"/>
+  <line x1="260" y1="625" x2="1000" y2="625" stroke="#9fb3c8" stroke-width="1"/>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#37474f">
+    <text x="260" y="655" text-anchor="middle">0</text><text x="440" y="655" text-anchor="middle">2</text><text x="620" y="655" text-anchor="middle">4</text><text x="800" y="655" text-anchor="middle">6</text><text x="980" y="655" text-anchor="middle">8</text>
+    <text x="630" y="687" text-anchor="middle">Happiness score</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#263238" text-anchor="end">
+    <text x="245" y="147">Austria</text><text x="245" y="197">Canada</text><text x="245" y="247">New Zealand</text><text x="245" y="297">Sweden</text><text x="245" y="347">Switzerland</text><text x="245" y="397">Netherlands</text><text x="245" y="447">Iceland</text><text x="245" y="497">Norway</text><text x="245" y="547">Denmark</text><text x="245" y="597">Finland</text>
+  </g>
+  <g fill="#8ecae6">
+    <rect x="260" y="126" width="652.1" height="27" rx="5"/><rect x="260" y="176" width="655.0" height="27" rx="5"/><rect x="260" y="226" width="657.6" height="27" rx="5"/><rect x="260" y="276" width="660.9" height="27" rx="5"/><rect x="260" y="326" width="673.2" height="27" rx="5"/><rect x="260" y="376" width="673.9" height="27" rx="5"/><rect x="260" y="426" width="674.5" height="27" rx="5"/><rect x="260" y="476" width="679.9" height="27" rx="5"/><rect x="260" y="526" width="684.0" height="27" rx="5"/>
+  </g>
+  <rect x="260" y="576" width="699.2" height="27" rx="5" fill="#219ebc"/>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#17324d" font-weight="700">
+    <text x="925" y="147">7.246</text><text x="928" y="197">7.278</text><text x="930" y="247">7.307</text><text x="933" y="297">7.343</text><text x="945" y="347">7.480</text><text x="946" y="397">7.488</text><text x="947" y="447">7.494</text><text x="952" y="497">7.554</text><text x="957" y="547">7.600</text><text x="972" y="597">7.769</text>
+  </g>
+</svg>
