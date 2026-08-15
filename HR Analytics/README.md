@@ -1,6 +1,8 @@
 # 👥 HR Analytics — Job Change Analysis
 
-An exploratory data analysis project based on the **HR Analytics: Job Change of Data Scientists** dataset. The project investigates which candidate, education, experience, company, and training characteristics are associated with a person's intention to change jobs.
+An exploratory data analysis project based on the **HR Analytics: Job Change of Data Scientists** dataset. It investigates which candidate, education, experience, company, and training characteristics are associated with a person's intention to change jobs.
+
+![HR Analytics job-change overview](./hr_job_change_overview.svg)
 
 ## 🎯 Problem Statement
 
@@ -28,8 +30,7 @@ Important features include city development index, gender, relevant experience, 
 - Numerical correlations and feature distributions
 - Categorical summaries and train-versus-test comparisons
 - Target distribution and target-group comparisons
-- Missing-value inspection
-- Outlier detection for numerical features
+- Missing-value inspection and outlier detection
 - Univariate, bivariate, and multivariate visualizations
 - Correlation heatmaps and pairwise relationships
 
@@ -37,10 +38,11 @@ Important features include city development index, gender, relevant experience, 
 
 ~~~text
 HR Analytics/
-├── HR_Analytics.ipynb      # Complete EDA notebook
-├── aug_train.csv           # Training dataset
-├── aug_test.csv            # Test dataset
-├── sample_submission.csv   # Submission format example
+├── HR_Analytics.ipynb
+├── aug_train.csv
+├── aug_test.csv
+├── sample_submission.csv
+├── hr_job_change_overview.svg
 └── README.md
 ~~~
 
@@ -53,15 +55,8 @@ HR Analytics/
 
 ## 🚀 Getting Started
 
-Install the required libraries:
-
 ~~~bash
 pip install pandas numpy matplotlib seaborn jupyter
-~~~
-
-Open the notebook:
-
-~~~bash
 jupyter notebook HR_Analytics.ipynb
 ~~~
 
