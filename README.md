@@ -16,6 +16,7 @@ Each project demonstrates a practical analytics workflow: understanding raw data
 | [Netflix Originals](./Netflix%20Originals/README.md) | Genres, languages, runtimes, IMDb scores, and release trends |
 | [Pokémon](./Pokemon/README.md) | Pokémon types, generations, legendary status, and battle statistics |
 | [Road Accident Analysis](./Road%20Accident%20Analysis/README.md) | Road-safety data cleaning, accident trends, exploratory analysis, and analysis notebooks |
+| [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Country happiness rankings, contributing factors, correlations, and visual analysis |
 
 ## 🔎 Common analysis workflow
 
@@ -63,6 +64,7 @@ EDA-PROJECT-/
 ├── Netflix Originals/
 ├── Pokemon/
 ├── Road Accident Analysis/
+├── World Happiness Report Analysis/
 └── README.md
 ~~~
 
