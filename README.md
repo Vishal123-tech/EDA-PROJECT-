@@ -1,8 +1,17 @@
 # 📊 EDA Project Portfolio
 
-A growing collection of exploratory data analysis projects covering business, entertainment, technology, workforce, public safety, history, and game data.
+![Data Science and Analytics Portfolio](./data-science-analytics-banner.png)
 
-Each project demonstrates a practical analytics workflow: understanding raw data, cleaning quality issues, engineering useful features, exploring patterns, visualizing insights, and documenting conclusions.
+A growing collection of exploratory data analysis projects demonstrating practical data-science and data-analyst skills across business, entertainment, technology, workforce, public safety, history, and gaming datasets.
+
+## 🎯 What This Portfolio Demonstrates
+
+- Data cleaning, validation, and quality checks
+- Exploratory data analysis and feature engineering
+- Statistical analysis and pattern discovery
+- Clear, decision-ready charts and storytelling
+- Predictive modeling and recommendation concepts
+- SQL, Power BI, and reproducible Jupyter workflows
 
 ## 📁 Projects
 
@@ -12,44 +21,33 @@ Each project demonstrates a practical analytics workflow: understanding raw data
 | [Chocolate Sales in 2022–2023](./Chocolate%20Sales%20in%202022%E2%80%932023/README.md) | Revenue, seasonality, products, channels, marketing ROI, demand prediction, SQL, and Power BI |
 | [Data Science Salary](./Data%20Science%20Salary/README.md) | Salary patterns by job title, experience, location, remote work, and company characteristics |
 | [Fuel Efficiency Prediction](./Fuel%20Efficiency%20Prediction/) | Vehicle fuel-efficiency exploration and prediction |
-| [Glassdoor](./Glassdoor/README.md) | Data-science job postings, salary estimates, company details, locations, seniority, and technical skills |
-| [Global Terrorism Analysis](./Global%20Terrorism%20Analysis/) | Terrorism incidents, locations, attack types, casualties, and historical trends |
+| [Glassdoor](./Glassdoor/README.md) | Data-science job postings, salary estimates, locations, seniority, and technical skills |
+| [Global Terrorism Analysis](./Global%20Terrorism%20Analysis/) | Incidents, locations, attack types, casualties, and historical trends |
 | [HR Analytics](./HR%20Analytics/) | Workforce and employee analytics |
-| [Movie Recommendation System](./Movie%20Recommendation%20System/) | Movie data exploration and recommendation-oriented analysis |
+| [Movie Recommendation System](./Movie%20Recommendation%20System/) | Movie exploration and recommendation-oriented analysis |
 | [MovieLens](./MovieLens/) | Movie ratings and recommendation-oriented exploration |
 | [Netflix Originals](./Netflix%20Originals/README.md) | Genres, languages, runtimes, IMDb scores, and release trends |
-| [Olympics History Analysis](./Olympics%20History%20Analysis/) | Historical Olympic participation, medals, countries, and event trends |
+| [Olympics History Analysis](./Olympics%20History%20Analysis/) | Olympic participation, medals, countries, and event trends |
 | [Pokémon](./Pokemon/README.md) | Pokémon types, generations, legendary status, and battle statistics |
-| [Road Accident Analysis](./Road%20Accident%20Analysis/README.md) | Road-safety data cleaning, accident trends, exploratory analysis, and analysis notebooks |
+| [Road Accident Analysis](./Road%20Accident%20Analysis/README.md) | Road-safety data cleaning, accident trends, and statistical analysis |
 | [Salary Prediction](./Salary%20Prediction/) | Salary features, patterns, and predictive analysis |
-| [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Country happiness rankings, contributing factors, correlations, and visual analysis |
+| [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Happiness rankings, contributing factors, correlations, and visual analysis |
 
-## 🔎 Common analysis workflow
-
-Most projects follow a repeatable data-analysis process:
+## 🔎 Common Analysis Workflow
 
 1. Load and understand the raw dataset.
-2. Inspect shape, columns, data types, missing values, duplicates, and outliers.
+2. Inspect shape, data types, missing values, duplicates, and outliers.
 3. Clean inconsistent formats and document data-quality decisions.
 4. Create derived features that support the analysis.
 5. Explore distributions, relationships, trends, and group comparisons.
 6. Build clear charts and summarize the most useful findings.
-7. Save cleaned data or analysis-ready outputs when appropriate.
-8. Document the project so it can be reproduced and extended.
+7. Document the project so it can be reproduced and extended.
 
-## 🛠️ Technology used
+## 🛠️ Technology Used
 
-- Python
-- pandas and NumPy
-- Matplotlib, Seaborn, and Plotly
-- Scikit-learn and other modeling libraries where relevant
-- Jupyter Notebook
-- SQL and PostgreSQL for selected projects
-- Power BI for selected business dashboards
+Python · pandas · NumPy · Matplotlib · Seaborn · Plotly · scikit-learn · Jupyter Notebook · SQL · PostgreSQL · Power BI
 
-## 🚀 Getting started
-
-Clone the repository:
+## 🚀 Getting Started
 
 ~~~bash
 git clone https://github.com/Vishal123-tech/EDA-PROJECT-.git
@@ -58,29 +56,7 @@ cd EDA-PROJECT-
 
 Each project contains its own README with project-specific setup instructions, dataset information, analysis details, and file descriptions.
 
-## 📌 Repository structure
-
-~~~text
-EDA-PROJECT-/
-├── Analysis/
-├── Chocolate Sales in 2022–2023/
-├── Data Science Salary/
-├── Fuel Efficiency Prediction/
-├── Glassdoor/
-├── Global Terrorism Analysis/
-├── HR Analytics/
-├── Movie Recommendation System/
-├── MovieLens/
-├── Netflix Originals/
-├── Olympics History Analysis/
-├── Pokemon/
-├── Road Accident Analysis/
-├── Salary Prediction/
-├── World Happiness Report Analysis/
-└── README.md
-~~~
-
-## 🌱 Future projects
+## 🌱 Future Projects
 
 This repository will continue to grow with additional EDA projects, business analyses, predictive modeling work, dashboards, and data-storytelling examples.
 
