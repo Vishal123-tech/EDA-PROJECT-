@@ -1,6 +1,6 @@
 # 📊 EDA Project Portfolio
 
-A growing collection of exploratory data analysis projects covering business, entertainment, technology, workforce, public-safety, and game data.
+A growing collection of exploratory data analysis projects covering business, entertainment, technology, workforce, public safety, history, and game data.
 
 Each project demonstrates a practical analytics workflow: understanding raw data, cleaning quality issues, engineering useful features, exploring patterns, visualizing insights, and documenting conclusions.
 
@@ -8,14 +8,20 @@ Each project demonstrates a practical analytics workflow: understanding raw data
 
 | Project | Focus |
 | --- | --- |
+| [Analysis](./Analysis/) | Additional exploratory data analysis projects |
 | [Chocolate Sales in 2022–2023](./Chocolate%20Sales%20in%202022%E2%80%932023/README.md) | Revenue, seasonality, products, channels, marketing ROI, demand prediction, SQL, and Power BI |
 | [Data Science Salary](./Data%20Science%20Salary/README.md) | Salary patterns by job title, experience, location, remote work, and company characteristics |
+| [Fuel Efficiency Prediction](./Fuel%20Efficiency%20Prediction/) | Vehicle fuel-efficiency exploration and prediction |
 | [Glassdoor](./Glassdoor/README.md) | Data-science job postings, salary estimates, company details, locations, seniority, and technical skills |
+| [Global Terrorism Analysis](./Global%20Terrorism%20Analysis/) | Terrorism incidents, locations, attack types, casualties, and historical trends |
 | [HR Analytics](./HR%20Analytics/) | Workforce and employee analytics |
+| [Movie Recommendation System](./Movie%20Recommendation%20System/) | Movie data exploration and recommendation-oriented analysis |
 | [MovieLens](./MovieLens/) | Movie ratings and recommendation-oriented exploration |
 | [Netflix Originals](./Netflix%20Originals/README.md) | Genres, languages, runtimes, IMDb scores, and release trends |
+| [Olympics History Analysis](./Olympics%20History%20Analysis/) | Historical Olympic participation, medals, countries, and event trends |
 | [Pokémon](./Pokemon/README.md) | Pokémon types, generations, legendary status, and battle statistics |
 | [Road Accident Analysis](./Road%20Accident%20Analysis/README.md) | Road-safety data cleaning, accident trends, exploratory analysis, and analysis notebooks |
+| [Salary Prediction](./Salary%20Prediction/) | Salary features, patterns, and predictive analysis |
 | [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Country happiness rankings, contributing factors, correlations, and visual analysis |
 
 ## 🔎 Common analysis workflow
@@ -56,14 +62,20 @@ Each project contains its own README with project-specific setup instructions, d
 
 ~~~text
 EDA-PROJECT-/
+├── Analysis/
 ├── Chocolate Sales in 2022–2023/
 ├── Data Science Salary/
+├── Fuel Efficiency Prediction/
 ├── Glassdoor/
+├── Global Terrorism Analysis/
 ├── HR Analytics/
+├── Movie Recommendation System/
 ├── MovieLens/
 ├── Netflix Originals/
+├── Olympics History Analysis/
 ├── Pokemon/
 ├── Road Accident Analysis/
+├── Salary Prediction/
 ├── World Happiness Report Analysis/
 └── README.md
 ~~~
@@ -72,16 +84,6 @@ EDA-PROJECT-/
 
 This repository will continue to grow with additional EDA projects, business analyses, predictive modeling work, dashboards, and data-storytelling examples.
 
-New projects will be added with:
-
-- A dedicated project folder
-- The original dataset and notebook where appropriate
-- A project-specific README
-- Clear visualizations and documented findings
-- Reproducible setup instructions
-
 ## 👤 Author
 
 **Vishal Yadav**
-
-This portfolio is maintained as a collection of practical data-analysis projects and learning experiments.
