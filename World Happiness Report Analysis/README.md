@@ -1,44 +1,84 @@
-# World Happiness Report Analysis
+# 🌍 World Happiness Report Analysis
 
-A beginner-level **EDA / visualization** project exploring what makes countries happy, using the
-2019 World Happiness Report, 156 countries scored on subjective wellbeing, decomposed into six
-contributing factors.
+An exploratory data analysis project using the **2019 World Happiness Report** to understand how economic conditions, health, social support, freedom, generosity, and perceived corruption relate to national happiness.
 
-## Problem Statement
-The "happiness Score" is a survey-based ladder rating; the report attributes it to six factors
-(GDP, social support, health, freedom, generosity, corruption). Which factors actually track
-happiness, and who ranks top/bottom? This is exploratory analysis, the deliverable is insight +
-visualizations, not a model.
+The analysis covers **156 countries** and focuses on practical data cleaning, ranking analysis, correlation exploration, and clear visual storytelling.
 
-## Dataset
-- **Source**: [World Happiness Report 2019](https://worldhappiness.report/) (via HF `nateraw/world-happiness`)
-- **156 countries × 10 columns**: Overall rank, Score, GDP per capita, Social support, Healthy life
-  expectancy, Freedom, Generosity, Perceptions of corruption.
+![Top 10 countries by happiness score](./world_happiness_top10.svg)
 
-## Project Structure
-```
+## 🎯 Objectives
+
+- Identify the countries with the highest and lowest happiness scores.
+- Explore the relationship between happiness and the report's contributing factors.
+- Compare the influence of GDP per capita, healthy life expectancy, social support, freedom, generosity, and corruption perceptions.
+- Build reproducible notebooks with documented findings and visualizations.
+
+## 📊 Dataset
+
+- **Source:** [World Happiness Report 2019](https://worldhappiness.report/)
+- **Coverage:** 156 countries
+- **Year:** 2019
+- **File:** [data/happiness.csv](./data/happiness.csv)
+- **Main fields:** Overall rank, country, happiness score, GDP per capita, social support, healthy life expectancy, freedom, generosity, and perceptions of corruption.
+
+## 🔎 Key Findings
+
+- Finland, Denmark, and Norway rank among the happiest countries in the dataset.
+- South Sudan, the Central African Republic, and Afghanistan appear among the least happy countries.
+- Happiness has a strong positive relationship with GDP per capita, healthy life expectancy, and social support.
+- Freedom has a moderate relationship with happiness, while perceived corruption shows a weaker relationship.
+- Generosity has the weakest relationship among the major contributing factors examined.
+
+## 🗂️ Project Structure
+
+~~~text
 World Happiness Report Analysis/
-├── 01_eda.ipynb        # Overview: structure, missing, distributions, top categories
-├── 02_analysis.ipynb   # Rankings, factor correlations, GDP-vs-Score, heatmap
-├── utils.py · requirements.txt · README.md
-└── data/happiness.csv
-```
+├── 01_eda.ipynb        # Dataset overview, quality checks, distributions, and initial visuals
+├── 02_analysis.ipynb   # Rankings, correlations, comparisons, and advanced visualizations
+├── data/
+│   └── happiness.csv   # World Happiness Report dataset
+├── world_happiness_top10.svg
+├── utils.py
+├── requirements.txt
+└── README.md
+~~~
 
-## Key Findings
-All figures produced by executing the notebooks, not assumed.
-- **Happiest: Finland, Denmark, Norway. Least happy: South Sudan, Central African Republic, Afghanistan.**
-- **Economy, health and social support dominate**. Score correlates **0.79** with GDP per capita,
-  **0.78** with healthy life expectancy, **0.78** with social support.
-- **Freedom matters moderately (0.57); corruption weakly (0.39).**
-- **Generosity barely correlates (0.08)**, a generous population is *not* what makes a country score
-  high; material security, health, and having someone to count on are.
-- Read: national happiness is largely explained by wealth + health + social safety, not sentiment.
+## 🛠️ Technology Stack
 
-## Tech Stack
-- pandas, numpy, matplotlib, seaborn
+- Python
+- pandas and NumPy
+- Matplotlib and Seaborn
+- Jupyter Notebook
 
-## Getting Started
-```bash
+## 🚀 Getting Started
+
+Clone the repository and move into the project folder:
+
+~~~bash
+git clone https://github.com/Vishal123-tech/EDA-PROJECT-.git
+cd EDA-PROJECT-/World%20Happiness%20Report%20Analysis
+~~~
+
+Install the required packages:
+
+~~~bash
 pip install -r requirements.txt
+~~~
+
+Open the notebooks:
+
+~~~bash
 jupyter notebook 01_eda.ipynb
-```
+~~~
+
+Run the notebooks from top to bottom to reproduce the analysis and visualizations.
+
+## 📌 Notes
+
+This is an exploratory analysis project. The findings describe relationships in the 2019 data and should not be interpreted as proof of causation.
+
+## 👤 Author
+
+**Vishal Yadav**
+
+Part of the [EDA Project Portfolio](https://github.com/Vishal123-tech/EDA-PROJECT-).
