@@ -31,7 +31,7 @@ A growing collection of exploratory data analysis projects demonstrating practic
 | [Pokémon](./Pokemon/README.md) | Pokémon types, generations, legendary status, and battle statistics |
 | [Road Accident Analysis](./Road%20Accident%20Analysis/README.md) | Road-safety data cleaning, accident trends, and statistical analysis |
 | [Salary Prediction](./Salary%20Prediction/) | Salary features, patterns, and predictive analysis |
-| [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Happiness rankings, contributing factors, correlations, and visual analysis |
+| [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Happiness  rankings, contributing factors, correlations, and visual analysis |
 
 ## 🔎 Common Analysis Workflow
 
