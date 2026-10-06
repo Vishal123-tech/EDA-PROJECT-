@@ -6,12 +6,12 @@ A growing collection of exploratory data analysis projects demonstrating practic
 
 ## 🎯 What This Portfolio Demonstrates
 
-- Data cleaning, validation, and quality checks
-- Exploratory data analysis and feature engineering
-- Statistical analysis and pattern discovery
-- Clear, decision-ready charts and storytelling
-- Predictive modeling and recommendation concepts
-- SQL, Power BI, and reproducible Jupyter workflows
+-  Data cleaning, validation, and quality checks
+-  Exploratory data analysis and feature engineering
+-  Statistical analysis and pattern discovery
+-  Clear, decision-ready charts and storytelling
+-  Predictive modeling and recommendation concepts
+-  SQL, Power BI, and reproducible Jupyter workflows
 
 ## 📁 Projects
 
