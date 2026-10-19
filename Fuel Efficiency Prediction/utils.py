@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import (
+from sklearn.metrics  import (
     r2_score,
     mean_squared_error,
     mean_absolute_error,
