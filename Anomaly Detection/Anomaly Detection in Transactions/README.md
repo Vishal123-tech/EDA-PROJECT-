@@ -23,7 +23,7 @@ true frauds, the most operationally meaningful "how good is the top of the queue
 - **This project uses a stratified subsample**: **all 492 frauds** kept + **20,000 genuine**
   transactions sampled → **20,492 rows, 2.40% fraud**. (The full dataset is 284,807 rows;
   the subsample keeps every fraud and runs fast on a laptop.)
-- **Features**: 30, `Time`, `Amount`, and `V1`, `V28` (anonymised PCA components). No raw
+- **Features**: 30 columns — `Time`, `Amount`, and `V1`–`V28` (anonymised PCA components). No raw
   fields are available for privacy reasons.
 
 | Item | Definition |
