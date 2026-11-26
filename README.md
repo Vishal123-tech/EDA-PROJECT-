@@ -33,7 +33,7 @@ A growing collection of exploratory data analysis projects demonstrating practic
 | [Road Accident Analysis](./Road%20Accident%20Analysis/README.md) | Road-safety data cleaning, accident trends, and statistical analysis |
 | [Salary Prediction](./Salary%20Prediction/) | Salary features, patterns, and predictive analysis |
 | [Stack Overflow Developer Survey Analysis](./Stack%20Overflow%20Developer%20Survey%20Analysis/README.md) | Developer demographics, technology adoption, compensation, career experience, and work preferences |
-| [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Happiness  rankings, contributing factors, correlations, and visual analysis |
+| [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Happiness rankings, contributing factors, correlations, and visual analysis |
 
 ## 🔎 Common Analysis Workflow
 
