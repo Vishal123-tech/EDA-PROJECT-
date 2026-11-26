@@ -18,6 +18,7 @@ A growing collection of exploratory data analysis projects demonstrating practic
 | Project | Focus |
 | --- | --- |
 | [Analysis](./Analysis/) | Additional exploratory data analysis projects |
+| [Anomaly Detection](./Anomaly%20Detection/README.md) | Unsupervised credit-card transaction anomaly detection and fraud-triage evaluation |
 | [Chocolate Sales in 2022–2023](./Chocolate%20Sales%20in%202022%E2%80%932023/README.md) | Revenue, seasonality, products, channels, marketing ROI, demand prediction, SQL, and Power BI |
 | [Data Science Salary](./Data%20Science%20Salary/README.md) | Salary patterns by job title, experience, location, remote work, and company characteristics |
 | [Fuel Efficiency Prediction](./Fuel%20Efficiency%20Prediction/) | Vehicle fuel-efficiency exploration and prediction |
