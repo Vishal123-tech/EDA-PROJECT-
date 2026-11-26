@@ -17,21 +17,21 @@ A growing collection of exploratory data analysis projects demonstrating practic
 
 | Project | Focus |
 | --- | --- |
-| [Analysis](./Analysis/) | Additional exploratory data analysis projects |
+| [Analysis](./Analysis/README.md) | Additional exploratory data analysis projects |
 | [Anomaly Detection](./Anomaly%20Detection/README.md) | Unsupervised credit-card transaction anomaly detection and fraud-triage evaluation |
 | [Chocolate Sales in 2022–2023](./Chocolate%20Sales%20in%202022%E2%80%932023/README.md) | Revenue, seasonality, products, channels, marketing ROI, demand prediction, SQL, and Power BI |
 | [Data Science Salary](./Data%20Science%20Salary/README.md) | Salary patterns by job title, experience, location, remote work, and company characteristics |
-| [Fuel Efficiency Prediction](./Fuel%20Efficiency%20Prediction/) | Vehicle fuel-efficiency exploration and prediction |
+| [Fuel Efficiency Prediction](./Fuel%20Efficiency%20Prediction/README.md) | Vehicle fuel-efficiency exploration and prediction |
 | [Glassdoor](./Glassdoor/README.md) | Data-science job postings, salary estimates, locations, seniority, and technical skills |
-| [Global Terrorism Analysis](./Global%20Terrorism%20Analysis/) | Incidents, locations, attack types, casualties, and historical trends |
-| [HR Analytics](./HR%20Analytics/) | Workforce and employee analytics |
-| [Movie Recommendation System](./Movie%20Recommendation%20System/) | Movie exploration and recommendation-oriented analysis |
-| [MovieLens](./MovieLens/) | Movie ratings and recommendation-oriented exploration |
+| [Global Terrorism Analysis](./Global%20Terrorism%20Analysis/README.md) | Incidents, locations, attack types, casualties, and historical trends |
+| [HR Analytics](./HR%20Analytics/README.md) | Workforce and employee analytics |
+| [Movie Recommendation System](./Movie%20Recommendation%20System/README.md) | Movie exploration and recommendation-oriented analysis |
+| [MovieLens](./MovieLens/README.md) | Movie ratings and recommendation-oriented exploration |
 | [Netflix Originals](./Netflix%20Originals/README.md) | Genres, languages, runtimes, IMDb scores, and release trends |
-| [Olympics History Analysis](./Olympics%20History%20Analysis/) | Olympic participation, medals, countries, and event trends |
+| [Olympics History Analysis](./Olympics%20History%20Analysis/README.md) | Olympic participation, medals, countries, and event trends |
 | [Pokémon](./Pokemon/README.md) | Pokémon types, generations, legendary status, and battle statistics |
 | [Road Accident Analysis](./Road%20Accident%20Analysis/README.md) | Road-safety data cleaning, accident trends, and statistical analysis |
-| [Salary Prediction](./Salary%20Prediction/) | Salary features, patterns, and predictive analysis |
+| [Salary Prediction](./Salary%20Prediction/README.md) | Salary features, patterns, and predictive analysis |
 | [Stack Overflow Developer Survey Analysis](./Stack%20Overflow%20Developer%20Survey%20Analysis/README.md) | Developer demographics, technology adoption, compensation, career experience, and work preferences |
 | [World Happiness Report Analysis](./World%20Happiness%20Report%20Analysis/README.md) | Happiness rankings, contributing factors, correlations, and visual analysis |
 
